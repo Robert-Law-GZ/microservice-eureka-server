@@ -1,7 +1,7 @@
 FROM openjdk:8-jdk-alpine
 VOLUME /tmp
 LABEL  "Robert law"="shuangang@163.com"
-ADD target/robert-eureka-service-0.0.3-SNAPSHOT.jar app.jar
+ADD target/robert-eureka-service-0.0.4-SNAPSHOT.jar app.jar
 
 ENV JAVA_OPTS=""
 
